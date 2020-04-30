@@ -3,13 +3,12 @@
 
 public class LinearSearch
 {
-    public int Search(int[] array, int n, int searchValue)
+    public int UsingSearch(int[] array, int n, int searchValue)
     {
 
         for (int i = 0; i < n; i++)
-        {
             if (array[i] == searchValue) return 1;
-        }
+
         return -1;
     }
 
@@ -24,7 +23,8 @@ public class LinearSearch
         return -1;
     }
 
-    public int UsingSortedSearch(){
+    public int UsingSortedSearch(int[] sortedArray, int n, int searchValue)
+    {
         return -1;
     }
 
